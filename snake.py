@@ -8,13 +8,14 @@ finestra.keypad(True)
 finestra.border(0)
 finestra.timeout(10)
 snake = [[15,13], [15,12], [15,11]]
-cibo = [5,35]
+cibo = [6,33]
 doveGuardo = KEY_DOWN
 punti = 0
 finestra.addch(cibo[0], cibo[1], 'O')
 
 while True: 
-    finestra.addstr(0, 14, 'Score: ' + str(punti) + ' ')
+    finestra.addstr(0, 24, 'Score: ' + str(punti) + ' ')
+    finestra.addstr(29, 16, 'licensed by Tronco2018')
     tasto = finestra.getch()
     if tasto != -1:
         doveGuardo = tasto
