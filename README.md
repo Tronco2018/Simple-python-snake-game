@@ -1,7 +1,7 @@
                                                                       --Simple snake game--
 
 
-
+# WARNING: This code is old and may not work
 
 This is a simple and low graphic snake game made in python.
 
